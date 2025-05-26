@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Use YouTube AV1 (Improved)
 // @description  Enhanced AV1 codec enablement for YouTube with better reliability and configuration
-// @version      3.1.0
+// @version      3.1.1
 // @author       RM
 // @homepageURL  https://github.com/ODRise/YTAV1
-// @match        *://*.youtube.com/*/*
-// @exclude      *://*.music.https://www.youtube.com/*\n//
-// @exclude      *://*.studio.https://m.youtube.com/*\n//
-// @match        *://www.youtube-nocookie.com/embed/*
+// @match        *://*.www.youtube.com/*
+// @match        *://*.youtube-nocookie.com/embed/*
+// @exclude      *://music.www.youtube.com/*
+// @exclude      *://studio.www.youtube.com/*
 // @grant        GM.getValue
 // @grant        GM.setValue
 // @grant        GM.registerMenuCommand
